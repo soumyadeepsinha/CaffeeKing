@@ -10,30 +10,43 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Google Fints -->
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="./assets/css/style.css">
-  <title>CafeDayNight</title>
+  <title>CaféDayNight</title>
 </head>
 
 <body>
+  <section class="mymodal">
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4 id="info-modal-heading">Link Disabled</h4>
+        <p id="info-modal-content">Sorry! All Links are Disabled</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#" class="modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+    </div>
+  </section>
   <section class="mynav">
     <nav class="nav-fixed">
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo" style="margin-left: 30px;">CafeDayNight</a>
+        <a href="#" class="brand-logo" style="margin-left: 30px;">CaféDayNight</a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down" style="margin-right: 30px;">
-          <li><a href="index.php" onclick="toggleModal();">Home</a></li>
-          <li><a href="#" onclick="toggleModal();">About</a></li>
-          <li><a href="#" onclick="toggleModal();">Coffee</a></li>
-          <li><a href="#" onclick="toggleModal();">Contact</a></li>
+          <li><a href="index.php"">Home</a></li>
+          <li><a href=" #about"">About</a></li>
+          <li><a href="#coffee">Coffee</a></li>
+          <li><a href="#contat" onclick="toggleModal();">Contact</a></li>
         </ul>
       </div>
     </nav>
     <ul class="sidenav" id="mobile-demo">
-      <li><a href="index.php" onclick="toggleModal();">Home</a></li>
-      <li><a href="#" onclick="toggleModal();">About</a></li>
-      <li><a href="#" onclick="toggleModal();">Coffee</a></li>
-      <li><a href="#" onclick="toggleModal();">Contact</a></li>
+      <li><a href="index.php">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#coffee">Coffee</a></li>
+      <li><a href="#contact" onclick="toggleModal();">Contact</a></li>
     </ul>
   </section>
   <section class="myslider">
@@ -69,7 +82,7 @@
     </div>
   </section>
   <section class="descrip">
-    <div class="description white center">
+    <div class="description white-text center">
       <h2 class="header">
         CafeDayNight -- Ultimate Quality Coffee
       </h2>
@@ -83,18 +96,18 @@
       </div>
     </div>
   </section>
-  <section class="mycards">
+  <section class="mycards" id="coffee">
     <div class="row" style="padding-left: 50px; padding-right: 50px;">
       <div class="col l4 m12 s12" style="padding: 50px 5px;">
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="./assets/images/card1.jpg">
+            <img class="activator" src="./assets/images/dalgonacoffee.jpg">
           </div>
           <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+            <span class="card-title activator grey-text text-darken-4">Coffeé Dalgona<i class="material-icons right">more_vert</i></span>
           </div>
           <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Neo Coffee<i class="material-icons right">close</i></span>
+            <span class="card-title grey-text text-darken-4">Dalgona Coffee<i class="material-icons right">close</i></span>
             <p>Here is some more information about this product that is only revealed once clicked on.</p>
           </div>
         </div>
@@ -102,13 +115,13 @@
       <div class="col l4 m12 s12" style="padding: 50px 5px;">
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="./assets/images/card1.jpg">
+            <img class="activator" src="./assets/images/Latte.jpg">
           </div>
           <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+            <span class="card-title activator grey-text text-darken-4">Coffeé Latte<i class="material-icons right">more_vert</i></span>
           </div>
           <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Neo Coffee<i class="material-icons right">close</i></span>
+            <span class="card-title grey-text text-darken-4">Latte Coffee<i class="material-icons right">close</i></span>
             <p>Here is some more information about this product that is only revealed once clicked on.</p>
           </div>
         </div>
@@ -116,10 +129,10 @@
       <div class="col l4 m12 s12" style="padding: 50px 5px;">
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="./assets/images/card1.jpg">
+            <img class="activator" src="./assets/images/americano-coffee.jpg">
           </div>
           <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+            <span class="card-title activator grey-text text-darken-4">Coffeé Americano<i class="material-icons right">more_vert</i></span>
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">Neo Coffee<i class="material-icons right">close</i></span>
@@ -134,17 +147,17 @@
       <div class="parallax"><img src="./assets/images/banner4.jpg" alt="Parallax_Banner 4"></div>
     </div>
   </section>
-  <section class="myabout">
-    <div class="row container center">
+  <section class="myabout" id="about">
+    <div class="row container white-text center">
       <h2 class="header">About Us</h2>
-      <p class="grey-text text-darken-3">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus illo ullam ratione, iste architecto quod nulla mollitia laudantium, labore, sunt quo id tempora commodi. Iste molestias tempore dolorem incidunt voluptate doloribus delectus, in facilis deleniti quidem! Ut labore temporibus reprehenderit cupiditate reiciendis obcaecati esse hic natus voluptates nobis autem rerum molestiae, earum, similique facilis doloribus aliquam excepturi voluptas, laudantium consequuntur voluptatum nisi totam cum magni. Quidem debitis quo modi nesciunt fugiat culpa earum quos, id est iste veniam dolor sint omnis dolorum ea dolore vel accusamus doloribus aliquam eaque nobis ipsum placeat soluta. Suscipit quo deleniti facilis laudantium quia veritatis.
+      <p>
+        Café Day Night, a part of Coffee Day Global Limited, is India’s favourite hangout for coffee and conversations. Popularly known as CDN, we strive to provide the best experience to our guests. Our coffees are sourced from thousands of small coffee planters, who made us who we are today and we're glad to be a part of their lives. We opened our first cafe in 1996 at Brigade Road in Bangalore – the youth and the young at heart immediately took to the cafe, and it continues to be one of the most happening places in the city. CDN to the youth is a “hangout” spot where they meet people, make conversations, and have a whole lot of fun over steaming cups of great coffee.It's been an exciting journey since then to becoming the largest organised retail cafe chain in the country. We’re also present in Austria,United Kingdom and Malaysia, so if your travel takes you there, do stop by our outlets to get a taste from back home!
       </p>
       <a href="#" class="btn custom-btn waves-effect waves-light">Read More</a>
     </div>
   </section>
   <section class="myservices">
-    <div class="row center" style="padding-left: 50px; padding-right: 50px;">
+    <div class="row center white-text" style="padding-left: 50px; padding-right: 50px;">
       <div class="col s12 l4" style="padding: 50px;">
         <i class="large material-icons icon-custom">local_cafe</i>
         <h5 class="header">Variety of Coffee</h5>
@@ -160,7 +173,7 @@
     </div>
   </section>
   <section class="mycarousel">
-    <div class="section white center">
+    <div class="section white-text center">
       <h3 class="header">Whats our Customer Says:</h3>
       <div class="carousel carousel-effects" style="margin-block: 30px">
         <a href="#" class="carousel-item">
@@ -236,17 +249,41 @@
       </div>
     </div>
   </section>
-  <section class="mymodal">
-    <!-- Modal Structure -->
-    <div id="modal1" class="modal">
-      <div class="modal-content">
-        <h4 id="info-modal-heading">Link Disabled</h4>
-        <p id="info-modal-content">Sorry! All Links are Disabled</p>
+  <section class="myfooter" id="contact">
+    <footer class="footer-one">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h4 class="white-text">Contat with Us</h4>
+            <p class="grey-text">
+              76, WhiteField Road, EPIP Area <br />
+              Bengalore-56, India
+            </p>
+            <p class="grey-text">
+              +91-9801000200
+            </p>
+          </div>
+          <div class="col l6 s12">
+            <h4 class="white-text">Give your feedback via</h4>
+            <ul>
+              <li><a href="#" class="grey-text" onclick="toggleModal();">Facebook</a></li>
+              <li><a href="#" class="grey-text" onclick="toggleModal();">Instagram</a></li>
+              <li><a href="#" class="grey-text" onclick="toggleModal();">Twitter</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div class="modal-footer">
-        <a href="#" class="modal-close waves-effect waves-green btn-flat">Close</a>
+    </footer>
+    <footer class="footer-two">
+      <div class="row">
+        <div class="col l6 s12 left">
+          <p class="white-text">&copy; CaffeeDayNight</p>
+        </div>
+        <div class="col l6 s12 right">
+          <p class="white-text">Designed by Soumydeep Sinha with LCO</p>
+        </div>
       </div>
-    </div>
+    </footer>
   </section>
   <!-- JQuery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
