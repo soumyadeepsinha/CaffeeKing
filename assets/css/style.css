@@ -4,8 +4,14 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #a75848;
+  font-family: 'Merriweather', serif;
+}
+
 .nav-wrapper {
   background-color: #6f4037;
+  font-family: 'Pacifico', cursive;
 }
 
 .slider .indicators .indicator-item.active {
@@ -22,11 +28,22 @@
   height: auto;
 }
 
-.icon-custom {
-  color: #6f4037;
-}
-
 .custom-btn {
   background: #6f4037 !important;
   margin-top: 10px;
+}
+
+.footer-one {
+  background-color: #6f4037;
+}
+
+.footer-two {
+  background-color: #462822;
+  margin-bottom: 0 !important;
+  margin: none !important;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
 }
