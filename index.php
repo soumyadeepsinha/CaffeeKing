@@ -134,6 +134,15 @@
       <div class="parallax"><img src="./assets/images/banner4.jpg" alt="Parallax_Banner 4"></div>
     </div>
   </section>
+  <section class="myabout">
+    <div class="row container center">
+      <h2 class="header">About Us</h2>
+      <p class="grey-text text-darken-3">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus illo ullam ratione, iste architecto quod nulla mollitia laudantium, labore, sunt quo id tempora commodi. Iste molestias tempore dolorem incidunt voluptate doloribus delectus, in facilis deleniti quidem! Ut labore temporibus reprehenderit cupiditate reiciendis obcaecati esse hic natus voluptates nobis autem rerum molestiae, earum, similique facilis doloribus aliquam excepturi voluptas, laudantium consequuntur voluptatum nisi totam cum magni. Quidem debitis quo modi nesciunt fugiat culpa earum quos, id est iste veniam dolor sint omnis dolorum ea dolore vel accusamus doloribus aliquam eaque nobis ipsum placeat soluta. Suscipit quo deleniti facilis laudantium quia veritatis.
+      </p>
+      <a href="#" class="btn custom-btn waves-effect waves-light">Read More</a>
+    </div>
+  </section>
   <section class="mymodal">
     <!-- Modal Structure -->
     <div id="modal1" class="modal">
