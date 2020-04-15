@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-wrapper {
+  background-color: #6f4037;
+}
+
+.slider .indicators .indicator-item.active {
+  background-color: #6f4037;
+}
+
+.move {
+  margin-top: 20px;
+  margin-bottom: 20;
+}
+
+.parallax-container {
+  min-height: 380px;
+  height: auto;
+}
