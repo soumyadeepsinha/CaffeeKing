@@ -21,3 +21,12 @@
   min-height: 380px;
   height: auto;
 }
+
+.icon-custom {
+  color: #6f4037;
+}
+
+.custom-btn {
+  background: #6f4037 !important;
+  margin-top: 10px;
+}

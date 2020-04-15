@@ -19,9 +19,9 @@
   <section class="mynav">
     <nav class="nav-fixed">
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo">CafeDayNight</a>
+        <a href="#" class="brand-logo" style="margin-left: 30px;">CafeDayNight</a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <ul id="nav-mobile" class="right hide-on-med-and-down" style="margin-right: 30px;">
           <li><a href="index.php" onclick="toggleModal();">Home</a></li>
           <li><a href="#" onclick="toggleModal();">About</a></li>
           <li><a href="#" onclick="toggleModal();">Coffee</a></li>
@@ -143,6 +143,99 @@
       <a href="#" class="btn custom-btn waves-effect waves-light">Read More</a>
     </div>
   </section>
+  <section class="myservices">
+    <div class="row center" style="padding-left: 50px; padding-right: 50px;">
+      <div class="col s12 l4" style="padding: 50px;">
+        <i class="large material-icons icon-custom">local_cafe</i>
+        <h5 class="header">Variety of Coffee</h5>
+      </div>
+      <div class="col s12 l4" style="padding: 50px;">
+        <i class="large material-icons icon-custom">local_dining</i>
+        <h5 class="header"> Kinds of Beverage of Your Choice</h5>
+      </div>
+      <div class="col s12 l4" style="padding: 50px 50px;">
+        <i class="large material-icons icon-custom">favorite</i>
+        <h5 class="header">Your Choice --Our dishes</h5>
+      </div>
+    </div>
+  </section>
+  <section class="mycarousel">
+    <div class="section white center">
+      <h3 class="header">Whats our Customer Says:</h3>
+      <div class="carousel carousel-effects" style="margin-block: 30px">
+        <a href="#" class="carousel-item">
+          <div class="row">
+            <div class="col s12">
+              <div class="card-panel teal" style="background-color: #6f4037 !important;">
+                <span class="white-text">First review</span>
+                <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia repudiandae asperiores sapiente corrupti itaque eos facilis pariatur libero nulla impedit!</>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="carousel-item">
+          <div class="row">
+            <div class="col s12">
+              <div class="card-panel teal" style="background-color: #6f4037 !important;">
+                <span class="white-text">Second review</span>
+                <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia repudiandae asperiores sapiente corrupti itaque eos facilis pariatur libero nulla impedit!</>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="carousel-item">
+          <div class="row">
+            <div class="col s12">
+              <div class="card-panel teal" style="background-color: #6f4037 !important;">
+                <span class="white-text">Third review</span>
+                <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia repudiandae asperiores sapiente corrupti itaque eos facilis pariatur libero nulla impedit!</>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="carousel-item">
+          <div class="row">
+            <div class="col s12">
+              <div class="card-panel teal" style="background-color: #6f4037 !important;">
+                <span class="white-text">Fourth review</span>
+                <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia repudiandae asperiores sapiente corrupti itaque eos facilis pariatur libero nulla impedit!</>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="carousel-item">
+          <div class="row">
+            <div class="col s12">
+              <div class="card-panel teal" style="background-color: #6f4037 !important;">
+                <span class="white-text">Fivth review</span>
+                <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia repudiandae asperiores sapiente corrupti itaque eos facilis pariatur libero nulla impedit!</>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="carousel-item">
+          <div class="row">
+            <div class="col s12">
+              <div class="card-panel teal" style="background-color: #6f4037 !important;">
+                <span class="white-text">Sixth review</span>
+                <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia repudiandae asperiores sapiente corrupti itaque eos facilis pariatur libero nulla impedit!</>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="carousel-item">
+          <div class="row">
+            <div class="col s12">
+              <div class="card-panel teal" style="background-color: #6f4037 !important;">
+                <span class="white-text">Another review</span>
+                <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia repudiandae asperiores sapiente corrupti itaque eos facilis pariatur libero nulla impedit!</>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
   <section class="mymodal">
     <!-- Modal Structure -->
     <div id="modal1" class="modal">
@@ -151,7 +244,7 @@
         <p id="info-modal-content">Sorry! All Links are Disabled</p>
       </div>
       <div class="modal-footer">
-        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+        <a href="#" class="modal-close waves-effect waves-green btn-flat">Close</a>
       </div>
     </div>
   </section>
